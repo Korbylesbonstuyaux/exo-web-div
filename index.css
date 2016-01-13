@@ -1,0 +1,120 @@
+body {
+  /*width: 1340px;*/
+}
+
+header {
+  height: 100px;
+  border-bottom: 5px solid black;
+  background-color: #43C7FF;
+  padding: 0
+}
+
+header .user {
+  position: relative;
+  top: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+header .user span {
+  position: absolute;
+  left: 18px;
+  top: -10px;
+  color: white;
+}
+
+header .user span {
+  line-height: 100px;
+  font-size: 4em;
+}
+
+header .username span, header .points span {
+  line-height: 100px;
+  font-size: 2em;
+  color: white;
+}
+
+header .username span {
+  padding-left: 10px;
+}
+
+.container-box {
+  padding: 0px;
+}
+
+.clear-border-left {
+  border-left: 0 !important;
+}
+
+.big-box {
+  height: 360px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  background-color: red;
+  padding: 0px;
+}
+
+.big-box .logo {
+  height: 85%;
+  width: 100%;
+  background-color: white;
+}
+
+.big-box .link {
+  height: 15%;
+  width: 100%;
+  background-color: green;
+}
+
+.small-box {
+  height: 180px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  background-color: blue;
+  padding: 0px;
+}
+
+.small-box .logo {
+  height: 70%;
+  width: 100%;
+  background-color: white;
+}
+
+.small-box .link {
+  height: 30%;
+  width: 100%;
+  background-color: green;
+}
+
+.logo {
+  color: black;
+  text-align: center;
+}
+
+.link {
+  color: white;
+}
+
+.big-box .logo span {
+  line-height: 302px;
+  font-size: 10em;
+}
+
+.big-box .link span {
+  line-height: 58px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.small-box .logo span {
+  line-height: 123px;
+  font-size: 5em;
+}
+
+.small-box .link span {
+  line-height: 58px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
